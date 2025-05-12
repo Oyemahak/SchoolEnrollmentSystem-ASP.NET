@@ -6,7 +6,11 @@
 **Solution**: An integrated web platform automating:
 - Student registration & profile management  
 - Course catalog and enrollment system  
-- Administrative dashboard for oversight  
+- Administrative dashboard for oversight
+
+🔗 **UX Design Prototype**  
+View the full UX workflow in Figma:  
+[Figma - School Enrollment System](https://www.figma.com/design/OMwiLp38P8gZ9rpAl6btOy/School-Enrollment-System---ASP.Net?node-id=1-2&t=taYVwHVF3I8MCMdB-1)
 
 ## 🛠 Tech Stack
 | Component       | Technology |
