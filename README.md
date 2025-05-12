@@ -1,10 +1,6 @@
 # 🏤 School Enrollment System  
 **A modern ASP.NET Core solution for educational administration**  
 
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-5.2.8-blue)
-![EF Core](https://img.shields.io/badge/Entity_Framework-6.0.8-green)
-![License](https://img.shields.io/badge/License-MIT-orange)
-
 ## 📋 Project Overview
 **Problem Statement**: Manual school administration processes lead to enrollment errors and operational inefficiencies.  
 **Solution**: An integrated web platform automating:
