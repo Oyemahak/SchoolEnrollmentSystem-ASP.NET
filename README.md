@@ -17,7 +17,6 @@
 |-----------------|------------|
 | Frontend        | Razor Pages |
 | Backend         | ASP.NET Core MVC |
-| ORM             | Entity Framework Core 6 |
 | Database        | SQL Server |
 | Authentication  | ASP.NET Core Identity |
 | Version Control | GitHub |
@@ -37,25 +36,6 @@
 ├── wwwroot/
 └── appsettings.json
 ```
-
-## 🚀 Key Features
-```csharp
-// Sample Model Relationship
-public class Enrollment {
-    [ForeignKey("Student")]
-    public int StudentID { get; set; }
-    
-    [ForeignKey("Course")]
-    public int CourseID { get; set; }
-    
-    public DateTime EnrollmentDate { get; set; }
-}
-```
-
-✅ **Implemented**  
-- CRUD operations for student/course management  
-- Relational database with EF Core migrations  
-- Responsive registration interface  
 
 🔜 **Roadmap**  
 - [ ] Role-based access control (Admin/Staff/Student)  
