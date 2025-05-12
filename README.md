@@ -1,4 +1,4 @@
-# 🏤 School Management System  
+# 🏤 School Enrollment System  
 **A modern ASP.NET Core solution for educational administration**  
 
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-5.2.8-blue)
