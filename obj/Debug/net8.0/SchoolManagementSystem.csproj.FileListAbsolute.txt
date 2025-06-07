@@ -295,3 +295,4 @@ C:\Users\temp-\source\repos\SchoolManagementSystem\obj\Debug\net8.0\refint\Schoo
 C:\Users\temp-\source\repos\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.pdb
 C:\Users\temp-\source\repos\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.genruntimeconfig.cache
 C:\Users\temp-\source\repos\SchoolManagementSystem\obj\Debug\net8.0\ref\SchoolManagementSystem.dll
+C:\Users\temp-\source\repos\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.sourcelink.json
