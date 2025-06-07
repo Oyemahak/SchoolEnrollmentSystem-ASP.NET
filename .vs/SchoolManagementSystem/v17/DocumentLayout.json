@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D34C52BE-1D33-4FA9-9395-C701933C53AD}|SchoolManagementSystem.csproj|c:\\users\\temp-\\source\\repos\\schoolmanagementsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D34C52BE-1D33-4FA9-9395-C701933C53AD}|SchoolManagementSystem.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D34C52BE-1D33-4FA9-9395-C701933C53AD}|SchoolManagementSystem.csproj|c:\\users\\temp-\\source\\repos\\schoolmanagementsystem\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D34C52BE-1D33-4FA9-9395-C701933C53AD}|SchoolManagementSystem.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,19 +123,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-07T02:23:39.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
               "ToolTip": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "Controllers\\CoursesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T19:27:05.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T19:27:05.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Courses\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Courses\\Edit.cshtml",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Courses\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Courses\\Create.cshtml",
@@ -155,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Courses\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Courses\\Details.cshtml",
@@ -167,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -179,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -191,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Courses\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Courses\\Index.cshtml",
@@ -203,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Enrollments\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Details.cshtml",
@@ -215,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Enrollments\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Delete.cshtml",
@@ -227,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Courses\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Courses\\Delete.cshtml",
@@ -239,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Models\\Course.cs",
@@ -251,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Enrollments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Index.cshtml",
@@ -263,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EnrollmentsController.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Controllers\\EnrollmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EnrollmentsController.cs",
@@ -275,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
@@ -287,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -299,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Students\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Details.cshtml",
@@ -311,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Delete.cshtml",
@@ -323,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Enrollments\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Edit.cshtml",
@@ -335,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Enrollments\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Enrollments\\Create.cshtml",
@@ -347,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
@@ -359,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
@@ -371,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "Models\\Enrollment.cs",
@@ -383,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -395,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20250605191028_AddStudentCourseEnrollmentTables.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Migrations\\20250605191028_AddStudentCourseEnrollmentTables.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605191028_AddStudentCourseEnrollmentTables.cs",
@@ -407,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20250605190222_AddStudentCourseEnrollmentTables.cs",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\Data\\Migrations\\20250605190222_AddStudentCourseEnrollmentTables.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20250605190222_AddStudentCourseEnrollmentTables.cs",
@@ -419,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\temp-\\source\\repos\\SchoolManagementSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

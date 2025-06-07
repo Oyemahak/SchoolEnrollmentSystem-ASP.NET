@@ -66,7 +66,7 @@ The platform enables **administrators** to:
 ---
 
 ## 🗂️ Folder Structure
-
+```
 SchoolManagementSystem/
 ├── Controllers/
 │ ├── StudentsController.cs
@@ -86,6 +86,9 @@ SchoolManagementSystem/
 ├── wwwroot/
 ├── appsettings.json
 └── Program.cs
+```
+
+---
 
 ## 📥 Installation
 To run this project locally:
@@ -108,6 +111,13 @@ Make sure you have:
 - Pre-requisite Validation for Courses
 - Reports Export (CSV/PDF)
 - Email Notifications (SMTP Integration)
+
+---
+
+##📎 Evidence of Functionality & Screenshots
+[🔗 View PDF Evidence on Google Drive](https://drive.google.com/file/d/1xsT_9PjQwyuu3VKfOwUK2IC7f-cnK-8_/view?usp=drive_link)
+
+---
 
 ## 🆘 Support & Contact
 For any feedback or clarifications:
