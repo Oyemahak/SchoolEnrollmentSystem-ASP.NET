@@ -23,20 +23,21 @@ namespace SchoolManagementSystem.Controllers
         {
             if (id == null) return NotFound();
 
-            var course = await _context.Courses.FirstOrDefaultAsync(m => m.CourseId == id);
+            var course = await _context.Courses
+                .Include(c => c.Enrollments)
+                    .ThenInclude(e => e.Student)
+                .FirstOrDefaultAsync(c => c.CourseId == id);
+
             if (course == null) return NotFound();
 
             return View(course);
         }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CourseId,Title,Description")] Course course)
+        public async Task<IActionResult> Create([Bind("CourseId,Title,Credits")] Course course)
         {
             if (ModelState.IsValid)
             {
@@ -59,7 +60,7 @@ namespace SchoolManagementSystem.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CourseId,Title,Description")] Course course)
+        public async Task<IActionResult> Edit(int id, [Bind("CourseId,Title,Credits")] Course course)
         {
             if (id != course.CourseId) return NotFound();
 
@@ -74,8 +75,7 @@ namespace SchoolManagementSystem.Controllers
                 {
                     if (!_context.Courses.Any(e => e.CourseId == id))
                         return NotFound();
-                    else
-                        throw;
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }

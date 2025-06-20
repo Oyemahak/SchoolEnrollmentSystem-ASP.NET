@@ -7,12 +7,27 @@
 <h1>Course Details</h1>
 <hr />
 <dl class="row">
-    <dt class="col-sm-2">Name</dt>
+    <dt class="col-sm-2">Title</dt>
     <dd class="col-sm-10">@Model.Title</dd>
 
     <dt class="col-sm-2">Credits</dt>
     <dd class="col-sm-10">@Model.Credits</dd>
 </dl>
+
+@if (Model.Enrollments != null && Model.Enrollments.Any())
+{
+    <h4>Enrolled Students</h4>
+    <ul>
+        @foreach (var enrollment in Model.Enrollments)
+        {
+            <li>@enrollment.Student?.Name (@enrollment.Student?.Email)</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No students enrolled.</p>
+}
 
 <a asp-action="Edit" asp-route-id="@Model.CourseId" class="btn btn-warning">Edit</a> |
 <a asp-action="Index" class="btn btn-secondary">Back to List</a>

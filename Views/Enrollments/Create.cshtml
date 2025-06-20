@@ -5,32 +5,31 @@
 }
 
 <h1>Create Enrollment</h1>
-
 <hr />
+
 <div class="row">
     <div class="col-md-6">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <div class="form-group">
-                <label asp-for="StudentId" class="control-label"></label>
-                <select asp-for="StudentId" class="form-control" asp-items="ViewBag.StudentId"></select>
+            <div class="form-group mb-3">
+                <label asp-for="StudentId" class="form-label">Select Student</label>
+                <select asp-for="StudentId" class="form-select" asp-items="ViewBag.StudentId">
+                    <option value="">-- Select Student --</option>
+                </select>
                 <span asp-validation-for="StudentId" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="CourseId" class="control-label"></label>
-                <select asp-for="CourseId" class="form-control" asp-items="ViewBag.CourseId"></select>
+            <div class="form-group mb-3">
+                <label asp-for="CourseId" class="form-label">Select Course</label>
+                <select asp-for="CourseId" class="form-select" asp-items="ViewBag.CourseId">
+                    <option value="">-- Select Course --</option>
+                </select>
                 <span asp-validation-for="CourseId" class="text-danger"></span>
             </div>
 
-            <div class="form-group mt-3">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+            <button type="submit" class="btn btn-primary">Enroll</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Back to List</a>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>

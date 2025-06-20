@@ -41,12 +41,28 @@ The platform enables **administrators** to:
 
 ---
 
+### 📡 **RESTful API + Swagger Integration**
+- ✅ Created full REST API for Students, Courses, and Enrollments
+- ✅ All endpoints tested using Swagger UI
+- ✅ Implemented Data Transfer Objects (DTOs) to return clean, secure JSON responses
+- ✅ API grouped using ASP.NET Core route conventions
+- ✅ Link to Swagger Portal: [API Documentation](https://localhost:7188/swagger/index.html)
+
+---
+
 ### 🧪 **Testing & Final Deliverables**  
 - ✅ Project builds successfully and runs on local server  
 - ✅ All models, controllers, and views work as expected  
 - ✅ Navigation is integrated across layout for full flow  
 - ✅ README and GitHub structure follow professional standards  
-- ✅ Created and verified migrations using Package Manager Console  
+- ✅ Created and verified migrations using Package Manager Console 
+
+---
+
+### 🔐 **Privacy Policy**
+- ✅ Added `/Home/Privacy` page with clear data usage policy
+- ✅ Communicates security, data scope, and terms of use
+- ✅ Linked through default site layout
 
 ---
 
@@ -125,4 +141,4 @@ For any feedback or clarifications:
 
 ---
 
-*"This project fulfills all academic and technical expectations for the HTTP-5226 Passion Project submission."*
+*"This project demonstrates a complete school CMS built from scratch using ASP.NET Core MVC, EF Core, Identity, and RESTful APIs — meeting and exceeding all HTTP-5226 Passion Project requirements."*

@@ -62,7 +62,11 @@ namespace SchoolManagementSystem.Controllers
         {
             if (id == null) return NotFound();
 
-            var enrollment = await _context.Enrollments.FindAsync(id);
+            var enrollment = await _context.Enrollments
+                .Include(e => e.Student)
+                .Include(e => e.Course)
+                .FirstOrDefaultAsync(e => e.EnrollmentId == id);
+
             if (enrollment == null) return NotFound();
 
             ViewData["StudentId"] = new SelectList(_context.Students, "StudentId", "Name", enrollment.StudentId);

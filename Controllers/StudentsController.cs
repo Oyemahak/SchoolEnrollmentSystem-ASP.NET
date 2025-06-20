@@ -23,16 +23,18 @@ namespace SchoolManagementSystem.Controllers
         {
             if (id == null) return NotFound();
 
-            var student = await _context.Students.FirstOrDefaultAsync(m => m.StudentId == id);
+            var student = await _context.Students
+                .Include(s => s.Enrollments!)
+                    .ThenInclude(e => e.Course)
+                .FirstOrDefaultAsync(m => m.StudentId == id);
+
             if (student == null) return NotFound();
 
             return View(student);
         }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
+
+        public IActionResult Create() => View();
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -74,8 +76,7 @@ namespace SchoolManagementSystem.Controllers
                 {
                     if (!_context.Students.Any(e => e.StudentId == id))
                         return NotFound();
-                    else
-                        throw;
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
